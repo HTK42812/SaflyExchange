@@ -1,0 +1,18 @@
+{
+  "/api": {
+    "target": "https://www.okx.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": "/api/v5"
+    }
+  },
+  "/coingecko": {
+    "target": "https://api.coingecko.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/coingecko": "/api/v3"
+    }
+  }
+}

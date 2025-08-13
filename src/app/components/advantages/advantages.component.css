@@ -1,0 +1,22 @@
+.advantages {
+  margin-bottom: 50px;
+}
+
+.advantage-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}

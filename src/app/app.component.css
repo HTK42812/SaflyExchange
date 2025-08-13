@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
